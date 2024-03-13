@@ -54,7 +54,7 @@ server "3.112.223.251",
   roles: %w{web app},
   ssh_options: {
     user: "ec2-user", # overrides user setting above
-    keys: %w(/home/kasagata/.ssh/id_rsa),
+    keys: %w(/home/kasagata/.ssh/dic_sample.pem),
     forward_agent: false,
     auth_methods: %w(publickey password)
     # password: "please use keys"
